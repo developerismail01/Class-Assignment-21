@@ -1,0 +1,205 @@
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.head h3 {
+  font-size: 25px;
+  margin-top: 70px;
+  padding: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #555555;
+}
+
+.head p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.header-menu {
+  background: #22c3a3;
+  height: 55px;
+}
+
+.header-menu .container .logo {
+  width: 40%;
+  float: left;
+}
+
+.header-menu .container .logo h2 {
+  color: #fff;
+  padding: 5px;
+}
+
+.header-menu .container .menu {
+  width: 60%;
+  float: right;
+}
+
+.header-menu .container .menu ul {
+  text-align: right;
+}
+
+.header-menu .container .menu ul li {
+  padding: 15px 20px;
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.header-menu .container .menu ul li a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url(https://i.ibb.co/bB1d0Dr/header-bg01.jpg?fbclid=IwAR0-B2I3Hz5UtKfg92OgHyzG1wEZcyJK7SFMwTJ783if-uGjQeXLI4T1rXs);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+  width: 100%;
+  padding: 250px;
+}
+
+.banner .container .text {
+  text-align: center;
+  color: #fff;
+}
+
+.banner .container .text h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.banner .container .text h4 {
+  font-size: 23px;
+}
+
+.banner .container .text a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 30px;
+  border: 1px solid #fff;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.service .container .box .box1 {
+  width: 22%;
+  margin: 90px 0;
+  float: left;
+  margin-left: 23px;
+  text-align: center;
+}
+
+.service .container .box .box1 i {
+  color: #22c3a3;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.service .container .box .box1 h3 {
+  color: rgba(0, 0, 0, 0.829);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.service .container .box .box1 p {
+  font-size: 14px;
+}
+
+.service .container .box:nth-child(1).box1 {
+  margin-left: 100px;
+}
+
+.about {
+  border-top: 2px solid #22c3a3;
+}
+
+.about .container .float {
+  margin: 80px 0;
+}
+
+.about .container .float .img {
+  float: left;
+  width: 40%;
+}
+
+.about .container .float .img img {
+  max-width: 100%;
+}
+
+.about .container .float .float-right {
+  width: 60%;
+  float: right;
+}
+
+.about .container .float .float-right h4 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.856);
+  padding-left: 50px;
+}
+
+.about .container .float .float-right p {
+  font-size: 14px;
+  padding: 0 50px;
+  margin-bottom: 30px;
+}
+
+.contact {
+  padding: 30px 0;
+  background: #f6f6f6;
+}
+
+.contact .container .contact-box {
+  text-align: center;
+}
+
+.contact .container .contact-box .box {
+  width: 20%;
+  margin: 50px 0;
+  float: left;
+}
+
+.contact .container .contact-box .box:nth-child(1).box {
+  margin-left: 250px;
+}
+
+.contact .container .contact-box .box i {
+  color: #22c3a3;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.contact .container .contact-box .box p {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.712);
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #22c3a3;
+}
+
+.footer i {
+  color: white;
+  margin-left: 15px;
+}
+
+.footer-bottom {
+  text-align: center;
+  background: #222222;
+}
+
+.footer-bottom p {
+  color: rgba(221, 221, 221, 0.658);
+  padding: 10px;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
